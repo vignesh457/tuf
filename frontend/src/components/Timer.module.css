@@ -1,0 +1,12 @@
+.timerCtn{
+    color: #d41f31f0;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    margin: 10px;
+    border: 2px solid #d41f31f0;
+    letter-spacing: 5px;
+    width: 180px;
+    text-align: center;
+}

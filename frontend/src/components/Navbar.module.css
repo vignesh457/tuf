@@ -1,0 +1,12 @@
+.navbarCtn{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #D41F30;
+}
+.navbarLogo{
+    color: #D41F30;
+    font-weight: 600;
+    font-size: 30px;
+}
