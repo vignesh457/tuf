@@ -7,7 +7,7 @@ function Dashboard() {
 
   const fetchFormData = async () => {
     try{
-      const response = await fetch('http://localhost:7000/banner');
+      const response = await fetch('https://tuf-vignesh.vercel.app/banner');
       const bannerData = await response.json();
       setFormData(bannerData);
     }
@@ -38,7 +38,7 @@ function Dashboard() {
       return;
     }
     try{
-      const response = await fetch('http://localhost:7000/banner', {
+      const response = await fetch('https://tuf-vignesh.vercel.app/banner', {
         method: 'PUT', 
         headers: {
           'Content-Type': 'application/json', 
